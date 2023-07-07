@@ -1,0 +1,255 @@
+body{
+    padding: 40px 115px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding: 0 10px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    color: orange;
+  }
+  
+  .topnav a.active {
+    color: orange;
+  }
+  .container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: translate(-50%, -50%);
+  }
+  .feature{
+    margin-top: 25px;
+    min-height: 400px;
+    padding-left:180px;
+    padding-right:70px;
+  }
+  .Practice{
+    /* background-image: url(../Image/office-desk-concept-with-essential-elements.jpg); */
+    background-color: rgba(231, 233, 235,0.8);
+  }
+  .Practice i {
+    color: orange;
+    font-size: 70px;
+  }
+  .centered1 {
+    position: absolute;
+    top: 32%;
+    right: 3%;
+  }
+  .team-div{
+    height: 170px;
+    width: 17%;
+    display: inline-block;
+    margin: 0 18px;
+    box-shadow: 2px 0 11px rgba(0, 0, 0, 0.3);
+  } 
+  .team-div :hover{
+    transform: scale(1.1);
+    color: orange;
+  } 
+  .practice-div{
+    display: inline-block;
+    height: 250px;
+    width: 21%;
+    background-color: white;
+  }
+  .about-us{
+    translate: 450px 36px;
+    background-color: white;
+    display: inline-block;
+   }
+   .about{
+    min-height: 400px;
+    width:700px;
+    margin: 0px auto;
+   }
+   .map-text{
+    background-color: #333;
+     width: 28%;
+     left: 181px;
+     top: 0px;
+     height: 100%;
+     position: absolute;
+     padding: 45px;
+     color: white;
+     opacity: 0.9;
+   }
+   .map-text-size{
+    font-size: 20px;
+    margin-top: 20px;
+   }
+   .map{
+    height:450px; 
+    margin-top: 20px;
+    position: relative;
+   }
+  @media only screen and (max-width:768px) {
+    body{
+        padding: 0;
+    }
+    .feature{
+        padding-left:0;
+        padding-right:0;
+    }
+  }
+  @media only screen and (max-width:480px) {
+    body{
+        padding: 0;
+    }
+    .feature{
+        padding-left:0;
+        padding-right:0;
+    }
+    .team-div{
+      width: 47%;
+      margin: 43px 4px;
+    } 
+    .practice-div{
+      width: 51%;
+    }
+    .about-us{
+      translate: 7px 36px;
+     }
+     .about{
+      width:370px;
+     }
+     .map-text{
+       width: 54%;
+       left: 62px;
+       padding: 23px;
+     }
+     .map-text-size{
+      font-size: 15px;
+      margin-top: 20px;
+     }
+     .map{
+      height:285px; 
+      margin-top: 20px;
+     }
+  } 
+
+  fieldset {
+    border: 10px solid black; 
+    border-top-color: black; 
+    box-sizing: border-box; 
+    grid-area: 1 / 1; /* first row, first column */
+    padding: 20px; 
+    width: inherit; 
+  } 
+
+
+
+footer{
+  padding: 2vw 6vw 2vw 6vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+footer .footer-col{
+  padding-bottom: 40px;
+}
+footer h3{
+  color: black;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+footer li{
+  list-style: none;
+  color: #7b838a;
+  padding: 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+footer li:hover{
+  color: orange;;
+}
+footer p{
+  color:#7b838a;
+}
+footer .subscribes{
+  margin-top: 20px;
+}
+footer input{
+  width:289px;
+  padding: 15px 12px;
+  background: #334F6C;
+  border:none;
+  outline: none;
+  color: #fff;
+}
+footer .subscribes a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 12px 15px;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+footer .subscribes a.yellow{
+  color: #2c2c2c;
+  background: #FDC93B;
+  transition: 0.3s ease;
+}
+footer .subscribes a.yellow:hover{
+  color:#FDC93B;
+  background: #fff;
+
+}
+footer .copyright{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+footer .copyright p{
+  color: #fff;
+}
+footer .copyright.pro-links{
+  margin-top: 0px;
+ 
+}
+
+footer .copyright .pro-links i{
+  background-color: #5f7185;
+  color: #fff;
+
+
+}
+footer .copyright .pro-links i:hover{
+  background-color: #FDC93B;
+  color: #2c2c2c;
+}
+ .about-btn{
+  translate: -29px -71px;
+ }
+.icon{
+  color: orange;
+  font-size: 30px;
+  margin: 0 4px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  padding: 10px;
+}
+
